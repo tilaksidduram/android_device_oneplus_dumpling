@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2017 The LineageOS Open Source Project
-# Copyright (C) 2017 The Liquid Remix Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -47,3 +46,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+# Build Official
+export HAVOC_BUILD_TYPE = Official

@@ -29,6 +29,4 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
-    <!-- Enable all rotations -->
-    <bool name="config_allowAllRotations">true</bool>
 </resources>

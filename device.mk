@@ -47,3 +47,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+# Build Official
+export HAVOC_BUILD_TYPE = Official
